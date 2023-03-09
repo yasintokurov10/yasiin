@@ -1,0 +1,94 @@
+form {
+  border-radius: 15px;
+  border: 1px solid rgb(144, 144, 144);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 30%;
+  box-shadow: 13px 10px 50px 10px rgb(48, 48, 48);
+  margin-bottom: 50px;
+}
+label {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+input {
+  border-radius: 10px;
+  width: 75%;
+  margin: 2%;
+  height: 30px;
+  color: rgb(57, 58, 58);
+  text-align: center;
+}
+
+button {
+  position: relative;
+  background-color: #616161;
+  border: none;
+  font-size: 19px;
+  color: #ffffff;
+  padding: 5px;
+  width: 250px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+  height: 37px;
+}
+
+button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+
+.card {
+  text-align: start;
+  max-width: 27%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h6 {
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  color: rgb(51, 1, 1);
+}
+
+h5 {
+  margin: 20px;
+  margin-right: 5px;
+  display: inline-block;
+  font-size: 20px;
+  color: rgb(51, 1, 1);
+}
